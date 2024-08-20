@@ -122,3 +122,4 @@ MonoBehaviour:
   damage: 0
   fxFeedback: {fileID: 8732610727350211724, guid: 98c257105847c244bb8c79a41f42a1b3,
     type: 3}
+  yeouch: {fileID: 8300000, guid: d42b29206ecfc0e4db1f617c91fa6156, type: 3}

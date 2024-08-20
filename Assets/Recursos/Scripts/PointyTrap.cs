@@ -6,25 +6,16 @@ public class PointyTrap : MonoBehaviour
 {
     [SerializeField] int damage;
     [SerializeField] GameObject fxFeedback;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    [SerializeField] AudioClip yeouch;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            SoundManager.Instance.PlaySound(yeouch);
             AffectPlayer(collision.gameObject);
             PickedUpBehavior();
+            GameManager.Instance.HpDown(1);
         }
     }
 

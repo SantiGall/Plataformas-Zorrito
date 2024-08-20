@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Menu.unity
+    guid: 01f2d559caf37cb4aa192db7ac970d4e
+  - enabled: 1
+    path: Assets/_Scenes/PlataformasZorrito.unity
+    guid: df2c5c84b8f45b54fbfe280a419f43ed
+  - enabled: 1
+    path: Assets/_Scenes/L.unity
+    guid: dd23601da8ac4ca40af537166525343b
   m_configObjects: {}
